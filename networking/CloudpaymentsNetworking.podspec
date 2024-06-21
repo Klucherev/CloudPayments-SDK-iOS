@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CloudpaymentsNetworking"
-  spec.version      = "1.0.1"
+  spec.version      = "1.3.3"
   spec.summary      = "Networking layer for Cloudpayments SDK's"
   spec.description  = "Networking layer for Cloudpayments SDK's"
 
