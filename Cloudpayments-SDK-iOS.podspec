@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "13.0"
 
-  spec.source       = { :git => "https://github.com/cloudpayments/CloudPayments-SDK-iOS.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Klucherev/CloudPayments-SDK-iOS.git", :tag => "#{spec.version}" }
   spec.source_files  = 'sdk/Sources/**/*.swift'
 
   spec.resource_bundles = { 'CloudpaymentsSDK' => ['sdk/Resources/**/*.{txt,json,png,jpeg,jpg,storyboard,xib,xcassets}']} 

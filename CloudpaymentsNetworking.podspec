@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source       = { :git => "https://github.com/cloudpayments/CloudPayments-SDK-iOS.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Klucherev/CloudPayments-SDK-iOS.git", :tag => "#{spec.version}" }
   spec.source_files  = 'networking/source/**/*.swift'
 
   spec.requires_arc = true
